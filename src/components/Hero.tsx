@@ -21,13 +21,13 @@ const Hero = () => {
 
       <div className="text-center z-10 px-6">
         <div className="animate-fade-in">
-          {/* Profile Photo */}
+          {/* Profile Photo with subtle filter enhancement */}
           <div className="mb-8 flex justify-center">
             <Avatar className="w-32 h-32 ring-4 ring-white/20 ring-offset-4 ring-offset-transparent">
               <AvatarImage 
-                src="https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=300&h=300&fit=crop&crop=face" 
+                src="/lovable-uploads/5a2360b5-76ef-4e53-b55f-334a35c4a91e.png" 
                 alt={contact.name}
-                className="object-cover"
+                className="object-cover brightness-105 contrast-105 saturate-110"
               />
               <AvatarFallback className="text-2xl font-bold bg-gradient-to-br from-purple-600 to-blue-600 text-white">
                 {contact.name.split(' ').map(n => n[0]).join('')}
@@ -46,7 +46,7 @@ const Hero = () => {
           </h2>
           
           <p className="text-xl md:text-2xl mb-4 text-gray-300">
-            5+ Years Experience in Vue 3 & Ruby on Rails
+            4+ Years Experience in Vue 3 & Ruby on Rails
           </p>
           <p className="text-lg mb-8 text-gray-400 max-w-2xl mx-auto">
             Passionate about creating elegant, scalable web applications with modern technologies. 
