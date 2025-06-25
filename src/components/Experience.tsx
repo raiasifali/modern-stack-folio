@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { MapPin, Calendar, ChevronRight } from 'lucide-react';
+import { MapPin, Calendar, ChevronRight, ExternalLink } from 'lucide-react';
 import portfolioService from '../services/portfolioService';
 
 const Experience = () => {
@@ -14,7 +14,7 @@ const Experience = () => {
             Professional Experience
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            5+ years of full-stack development experience across innovative companies
+            4+ years of full-stack development experience at Stack360
           </p>
         </div>
 
@@ -39,7 +39,20 @@ const Experience = () => {
               <div className="flex-1 bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
                 <div className="mb-4">
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">{experience.role}</h3>
-                  <h4 className="text-xl text-purple-600 font-semibold mb-3">{experience.company}</h4>
+                  <div className="flex items-center gap-2 mb-3">
+                    <h4 className="text-xl text-purple-600 font-semibold">{experience.company}</h4>
+                    {experience.website && (
+                      <a 
+                        href={experience.website}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-purple-600 hover:text-purple-800 transition-colors"
+                        title="Visit company website"
+                      >
+                        <ExternalLink size={16} />
+                      </a>
+                    )}
+                  </div>
                   
                   <div className="flex flex-wrap items-center text-gray-600 mb-4 gap-4">
                     <div className="flex items-center space-x-1">

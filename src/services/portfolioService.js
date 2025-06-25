@@ -1,4 +1,3 @@
-
 // Portfolio data service - similar to Pinia store pattern
 class PortfolioService {
   constructor() {
@@ -52,45 +51,35 @@ class PortfolioService {
     this.experiences = [
       {
         id: 1,
-        company: "TechCorp Solutions",
-        role: "Senior Full Stack Developer",
+        company: "Stack360",
+        role: "Software Developer",
         duration: "2022 - Present",
         location: "Lahore, Pakistan",
-        description: "Lead development of scalable web applications using Vue 3 and Ruby on Rails. Managed team of 4 developers and implemented CI/CD pipelines.",
+        description: "Currently working as a Software Developer, evolved from Associate Developer role. Specializing in full-stack development with Vue 3 and Ruby on Rails, delivering scalable web solutions for diverse clients.",
         achievements: [
-          "Reduced application load time by 40% through optimization",
-          "Led migration from Vue 2 to Vue 3 for 5 production applications",
-          "Implemented automated testing resulting in 95% code coverage"
+          "Promoted from Associate Developer to Software Developer",
+          "Developed and maintained multiple client applications using Vue 3 and Rails",
+          "Implemented responsive designs and modern UI/UX patterns",
+          "Collaborated with cross-functional teams to deliver high-quality software solutions"
         ],
-        technologies: ["Vue 3", "Ruby on Rails", "PostgreSQL", "AWS"]
+        technologies: ["Vue 3", "Ruby on Rails", "PostgreSQL", "Tailwind CSS", "JavaScript"],
+        website: "https://www.stack360.co/"
       },
       {
         id: 2,
-        company: "StartupHub Inc",
-        role: "Full Stack Developer",
-        duration: "2020 - 2022",
+        company: "Stack360",
+        role: "Associate Developer",
+        duration: "August 2020 - 2022",
         location: "Lahore, Pakistan",
-        description: "Developed and maintained multiple client projects using modern JavaScript frameworks and Ruby on Rails backend services.",
+        description: "Started my professional journey as an Associate Developer, learning and implementing modern web technologies. Focused on building responsive web applications and gaining expertise in full-stack development.",
         achievements: [
-          "Built 8 client applications from concept to deployment",
-          "Integrated payment systems and third-party APIs",
-          "Mentored 2 junior developers"
+          "Successfully completed training in Vue.js and Ruby on Rails",
+          "Contributed to multiple client projects from concept to deployment",
+          "Developed strong foundation in modern web development practices",
+          "Collaborated effectively in agile development environment"
         ],
-        technologies: ["Vue.js", "Next.js", "Ruby on Rails", "Heroku"]
-      },
-      {
-        id: 3,
-        company: "Digital Agency Pro",
-        role: "Junior Full Stack Developer",
-        duration: "2019 - 2020",
-        location: "Lahore, Pakistan",
-        description: "Started career developing responsive websites and web applications. Gained expertise in both frontend and backend technologies.",
-        achievements: [
-          "Delivered 15+ responsive websites",
-          "Learned Ruby on Rails and Vue.js",
-          "Contributed to open-source projects"
-        ],
-        technologies: ["HTML/CSS", "JavaScript", "Ruby on Rails", "MySQL"]
+        technologies: ["Vue.js", "Ruby on Rails", "HTML/CSS", "JavaScript", "MySQL"],
+        website: "https://www.stack360.co/"
       }
     ];
 
