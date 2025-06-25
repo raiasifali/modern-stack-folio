@@ -11,7 +11,7 @@ class PortfolioService {
         category: "Full Stack",
         image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
         demoUrl: "https://demo-ecommerce.com",
-        githubUrl: "https://github.com/yourname/ecommerce-platform",
+        githubUrl: "https://github.com/raiasifali/ecommerce-platform",
         featured: true
       },
       {
@@ -22,7 +22,7 @@ class PortfolioService {
         category: "Full Stack",
         image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
         demoUrl: "https://task-manager-demo.com",
-        githubUrl: "https://github.com/yourname/task-manager",
+        githubUrl: "https://github.com/raiasifali/task-manager",
         featured: true
       },
       {
@@ -33,7 +33,7 @@ class PortfolioService {
         category: "Frontend",
         image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
         demoUrl: "https://nextjs-portfolio.com",
-        githubUrl: "https://github.com/yourname/nextjs-portfolio",
+        githubUrl: "https://github.com/raiasifali/nextjs-portfolio",
         featured: false
       },
       {
@@ -44,7 +44,7 @@ class PortfolioService {
         category: "Backend",
         image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop",
         demoUrl: "https://api-docs.com",
-        githubUrl: "https://github.com/yourname/api-system",
+        githubUrl: "https://github.com/raiasifali/api-system",
         featured: false
       }
     ];
@@ -55,7 +55,7 @@ class PortfolioService {
         company: "TechCorp Solutions",
         role: "Senior Full Stack Developer",
         duration: "2022 - Present",
-        location: "San Francisco, CA",
+        location: "Lahore, Pakistan",
         description: "Lead development of scalable web applications using Vue 3 and Ruby on Rails. Managed team of 4 developers and implemented CI/CD pipelines.",
         achievements: [
           "Reduced application load time by 40% through optimization",
@@ -69,7 +69,7 @@ class PortfolioService {
         company: "StartupHub Inc",
         role: "Full Stack Developer",
         duration: "2020 - 2022",
-        location: "Austin, TX",
+        location: "Lahore, Pakistan",
         description: "Developed and maintained multiple client projects using modern JavaScript frameworks and Ruby on Rails backend services.",
         achievements: [
           "Built 8 client applications from concept to deployment",
@@ -83,7 +83,7 @@ class PortfolioService {
         company: "Digital Agency Pro",
         role: "Junior Full Stack Developer",
         duration: "2019 - 2020",
-        location: "New York, NY",
+        location: "Lahore, Pakistan",
         description: "Started career developing responsive websites and web applications. Gained expertise in both frontend and backend technologies.",
         achievements: [
           "Delivered 15+ responsive websites",
@@ -119,11 +119,12 @@ class PortfolioService {
     };
 
     this.contact = {
-      email: "developer@example.com",
-      phone: "+1 (555) 123-4567",
-      location: "San Francisco, CA",
-      linkedin: "https://linkedin.com/in/yourname",
-      github: "https://github.com/yourname",
+      name: "Asif Ali",
+      email: "devasif.alee@gmail.com",
+      phone: "+92 300 0041176",
+      location: "Lahore, Pakistan",
+      linkedin: "https://www.linkedin.com/in/raiasifali/",
+      github: "https://github.com/raiasifali/",
       website: "https://yourportfolio.com"
     };
   }

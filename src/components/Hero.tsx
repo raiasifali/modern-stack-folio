@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
+import { Avatar, AvatarImage, AvatarFallback } from '../components/ui/avatar';
 import portfolioService from '../services/portfolioService';
 
 const Hero = () => {
@@ -20,9 +21,30 @@ const Hero = () => {
 
       <div className="text-center z-10 px-6">
         <div className="animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-purple-300 bg-clip-text text-transparent">
-            Full Stack Developer
+          {/* Profile Photo */}
+          <div className="mb-8 flex justify-center">
+            <Avatar className="w-32 h-32 ring-4 ring-white/20 ring-offset-4 ring-offset-transparent">
+              <AvatarImage 
+                src="https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?w=300&h=300&fit=crop&crop=face" 
+                alt={contact.name}
+                className="object-cover"
+              />
+              <AvatarFallback className="text-2xl font-bold bg-gradient-to-br from-purple-600 to-blue-600 text-white">
+                {contact.name.split(' ').map(n => n[0]).join('')}
+              </AvatarFallback>
+            </Avatar>
+          </div>
+
+          {/* Name */}
+          <h1 className="text-4xl md:text-6xl font-bold mb-2 bg-gradient-to-r from-white to-purple-300 bg-clip-text text-transparent">
+            {contact.name}
           </h1>
+          
+          {/* Title */}
+          <h2 className="text-2xl md:text-4xl font-semibold mb-4 text-purple-300">
+            Full Stack Developer
+          </h2>
+          
           <p className="text-xl md:text-2xl mb-4 text-gray-300">
             5+ Years Experience in Vue 3 & Ruby on Rails
           </p>
@@ -38,6 +60,7 @@ const Hero = () => {
             className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 hover:scale-110"
             target="_blank"
             rel="noopener noreferrer"
+            title="GitHub"
           >
             <Github size={24} />
           </a>
@@ -46,12 +69,14 @@ const Hero = () => {
             className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 hover:scale-110"
             target="_blank"
             rel="noopener noreferrer"
+            title="LinkedIn"
           >
             <Linkedin size={24} />
           </a>
           <a 
             href={`mailto:${contact.email}`} 
             className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 hover:scale-110"
+            title="Email"
           >
             <Mail size={24} />
           </a>
