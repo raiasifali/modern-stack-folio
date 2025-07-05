@@ -5,58 +5,36 @@ class PortfolioService {
     this.projects = [
       {
         id: 1,
-        title: "E-Commerce Platform",
-        description: "Full-stack e-commerce solution with Vue 3 frontend and Rails API backend. Features include user authentication, payment processing, inventory management, and comprehensive admin dashboard with real-time analytics.",
-        technologies: ["Vue 3", "Ruby on Rails", "PostgreSQL", "Tailwind CSS", "AWS S3", "Stripe API"],
+        title: "Klingit",
+        description: "Spearheaded the development of Klingit's dynamic platform, leveraging Vue.js as the core frontend framework. Optimized user interactions and experience through meticulous utilization of Vue.js functionalities. Contributed to the creation of a seamless, responsive, and engaging interface for clients worldwide. Collaborated with cross-functional teams to integrate backend functionalities and ensure robust system performance.",
+        technologies: ["Vue 3", "Ruby on Rails", "PostgreSQL", "Vuetify", "Stripe API"],
         category: "Full Stack",
-        image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-        demoUrl: "https://demo-ecommerce.com",
-        githubUrl: "https://github.com/raiasifali/ecommerce-platform",
+        image: "/projects/klingit.png",
+        demoUrl: "https://klingit.com/",
+        githubUrl: "https://klingit.com/",
         featured: true
       },
       {
         id: 2,
-        title: "Task Management System",
-        description: "Real-time collaborative task management application built with Vue 3 and Rails. Features drag-and-drop functionality, team collaboration tools, real-time notifications, and advanced project tracking capabilities.",
+        title: "Microhealthllc",
+        description: "Orchestrated the creation of consumer-centric healthcare apps at Microhealth, employing Vue.js and Ruby on Rails (RoR) as primary development frameworks. Engineered user-friendly interfaces and seamless functionalities through Vue.js, ensuring a smooth and interactive user experience. Leveraged the power of RoR to implement robust backend systems, enabling efficient data processing and seamless app operations.",
         technologies: ["Vue 3", "Ruby on Rails", "WebSockets", "PostgreSQL", "Redis"],
         category: "Full Stack",
-        image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-        demoUrl: "https://task-manager-demo.com",
-        githubUrl: "https://github.com/raiasifali/task-manager",
-        featured: true
-      },
-      {
-        id: 3,
-        title: "Next.js Portfolio Website",
-        description: "Modern, responsive portfolio website built with Next.js 13, featuring server-side rendering, optimized performance, dynamic content management, and seamless user experience with modern animations.",
-        technologies: ["Next.js", "React", "Tailwind CSS", "TypeScript", "Vercel"],
-        category: "Frontend",
-        image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
-        demoUrl: "https://resume-five-ashen-94.vercel.app/",
-        githubUrl: "https://github.com/raiasifali/nextjs-portfolio",
-        featured: true
-      },
-      {
-        id: 4,
-        title: "RESTful API Management System",
-        description: "Comprehensive API management system built with Ruby on Rails, featuring JWT authentication, rate limiting, comprehensive API documentation, monitoring dashboard, and scalable architecture for enterprise applications.",
-        technologies: ["Ruby on Rails", "PostgreSQL", "JWT", "AWS EC2", "Redis", "Swagger"],
-        category: "Backend",
-        image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop",
-        demoUrl: "https://api-docs.com",
-        githubUrl: "https://github.com/raiasifali/api-system",
+        image: "/projects/microhealthllc.png",
+        demoUrl: "https://www.microhealthllc.com/",
+        githubUrl: "https://www.microhealthllc.com/",
         featured: false
       },
       {
         id: 5,
-        title: "Real-time Chat Application",
-        description: "Modern chat application with real-time messaging, file sharing, group chats, and user presence indicators. Built with Vue 3 frontend and Rails backend using WebSockets for seamless communication.",
+        title: "CoachCoach Catalyst",
+        description: "Coach Catalyst is an all-in-one coaching solution founded by Trevor Wittwer and Kane Sivesind in 2016. It’s designed to help coaches streamline client management, automate routine tasks, and scale their businesses efficiently. The platform provides a fully white-labeled, brandable web and mobile ecosystem tailored for both coaches and clients. Key features include habit tracking, workout programs, real-time messaging, progress tracking, check-ins, and seamless payment integration — all in one place.",
         technologies: ["Vue 3", "Ruby on Rails", "WebSockets", "PostgreSQL", "AWS S3"],
         category: "Full Stack",
-        image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=600&h=400&fit=crop",
-        demoUrl: "https://chat-app-demo.com",
-        githubUrl: "https://github.com/raiasifali/chat-app",
-        featured: false
+        image: "/projects/klingit.png",
+        demoUrl: "https://coachcatalyst.com/",
+        githubUrl: "https://coachcatalyst.com/",
+        featured: true
       }
     ];
 

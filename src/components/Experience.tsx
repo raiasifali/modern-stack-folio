@@ -14,7 +14,7 @@ const Experience = () => {
             Professional Experience
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            4+ years of full-stack development experience at Stack360
+            5+ years of full-stack development experience at Stack360
           </p>
         </div>
 
